@@ -1,4 +1,7 @@
-localbrews
-==========
+My Home Brew Recipes
+====================
 
-Local collection of homebrew recipes
+This is my collection of homebrew recipes.
+
+These brews can be installed via the raw GitHub URLs, or by cloning this
+repository locally with `brew tap khera/localbrews`.
