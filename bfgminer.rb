@@ -2,9 +2,9 @@ require 'formula'
 
 class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
-  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.0.0/bfgminer-3.0.0.tbz2'
+  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.0.2/bfgminer-3.0.2.tbz2'
   head 'https://github.com/luke-jr/bfgminer.git', :using => :git
-  sha256 '86f7f977ed57b8d61c728f88a3e5962aa1df0723d667c45b1e1bfa5152292400'
+  sha256 '78d379f57a83d0eb8bbe92ff7b12dbe2fd234273354fc50559beed687300fcca'
 
   option 'with-scrypt', 'Build with scrypt support'
 
