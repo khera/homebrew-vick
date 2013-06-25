@@ -2,9 +2,9 @@ require 'formula'
 
 class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
-  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.0.2/bfgminer-3.0.2.tbz2'
+  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.1.1/bfgminer-3.1.1.tbz2'
   head 'https://github.com/luke-jr/bfgminer.git', :using => :git
-  sha256 '78d379f57a83d0eb8bbe92ff7b12dbe2fd234273354fc50559beed687300fcca'
+  sha1 '826194510747fd40082c0820ab5bb11818e3a86d'
 
   option 'with-scrypt', 'Build with scrypt support'
 
@@ -12,6 +12,7 @@ class Bfgminer < Formula
   depends_on 'pkg-config' => :build
   depends_on 'jansson'
   depends_on 'curl'
+  depends_on 'uthash'
 
   depends_on 'libusb' => :optional
   option 'with-libusb', 'Build with libusb (for ZTEX/X6500 FPGAs) support'
