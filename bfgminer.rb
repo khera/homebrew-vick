@@ -12,7 +12,7 @@ class Bfgminer < Formula
   depends_on 'pkg-config' => :build
   depends_on 'jansson'
   depends_on 'curl'
-  depends_on 'uthash'
+  depends_on 'uthash' => :build
 
   depends_on 'libusb' => :optional
   option 'with-libusb', 'Build with libusb (for ZTEX/X6500 FPGAs) support'
