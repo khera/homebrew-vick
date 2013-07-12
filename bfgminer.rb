@@ -4,7 +4,7 @@ class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
   url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.1.3/bfgminer-3.1.3.tbz2'
   head 'https://github.com/luke-jr/bfgminer.git', :using => :git
-#  sha1 '826194510747fd40082c0820ab5bb11818e3a86d'
+  sha1 '355bed55b8bc3a72c4317645ea59ebd4ce7a79a4'
 
   option 'with-scrypt', 'Build with scrypt support'
 
