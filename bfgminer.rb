@@ -27,6 +27,7 @@ class Bfgminer < Formula
 
     args = %W[
       --prefix=#{prefix}
+      --enable-opencl
     ]
 
     args << "--enable-scrypt" if build.include? 'with-scrypt'
