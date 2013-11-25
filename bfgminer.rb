@@ -2,9 +2,9 @@ require 'formula'
 
 class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
-  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.5.1/bfgminer-3.5.1.tbz2'
+  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/3.6.0/bfgminer-3.6.0.tbz2'
   head 'https://github.com/luke-jr/bfgminer.git', :using => :git
-  sha1 '34d401d92c5e9657b2e2362402bf9b3b5ba37d16'
+  sha1 '4ed45b3976b103a3d033d5f59699ef5441c930a5'
 
   option 'with-scrypt', 'Build with scrypt support'
 
@@ -29,7 +29,7 @@ class Bfgminer < Formula
       --prefix=#{prefix}
     ]
 
-    args << "--with-scrypt" if build.include? 'with-scrypt'
+    args << "--enable-scrypt" if build.include? 'with-scrypt'
 
     system "./configure", *args
     system "make install"
