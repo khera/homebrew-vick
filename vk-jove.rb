@@ -1,6 +1,6 @@
 require 'formula'
 
-class Jove < Formula
+class VkJove < Formula
   homepage 'http://www.emacswiki.org/emacs/Jove'
   url 'ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/jove4.16.0.73.tgz'
   sha1 'fca6f33465b08eed5b90e24cfb67e61bc5249dcf'
